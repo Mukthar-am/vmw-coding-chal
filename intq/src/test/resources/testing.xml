@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestingSuite" parallel="methods">
+    <test name="Test1">
+        <classes>
+            <class name="questions.com.vmware.smartmart.SmallMartTests"/>
+        </classes>
+    </test>
+
+</suite>

@@ -5,7 +5,7 @@ It's completely fine not to complete all but please focus on design and maintain
 
 ### Refactoring problem
 
-questions.refactoring.SmallMart tries to solve following problem. Please refactor this class to make it more readable and maintainable
+questions.com.vmware.smartmart.application.SmallMart tries to solve following problem. Please refactor this class to make it more readable and maintainable
 
 SmallMart is a small inn with a prime location in a
 prominent city ran by a friendly innkeeper named Allison. We also buy and sell only the finest goods.
@@ -44,7 +44,7 @@ legendary item and as such its Quality is 80 and it never alters.
 
 ### Snake Game
 
-Please solve either questions.snake.SnakeJunitTest or questions.snake.SnakeCucumberTest depending on whether you are comfortable with Cucumber or not.
+Please solve either SnakeJunitTest or questions.com.vmware.smartmart.snake.SnakeCucumberTest depending on whether you are comfortable with Cucumber or not.
 
 Intention of the game is, Lazy snake will eat the food to grow its body. It can traverse either up/down/side ways but not diagonally in XY plane.
 While eating food, it can't cut its own body. Yes. Same old NOKIA snake game !!!
