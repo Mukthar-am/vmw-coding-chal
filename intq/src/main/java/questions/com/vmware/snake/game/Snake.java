@@ -14,13 +14,6 @@ public class Snake {
         SNAKE.add(head);
     }
 
-    /**
-     * snake length grow by adding elements to the linkedlist
-     */
-    public void grow() {
-        SNAKE.add(head);
-    }
-
 
     /**
      * snake traversing by moving occupied and empty cells - display of the cell shows the snake movement
@@ -33,51 +26,31 @@ public class Snake {
         if (!isGameAlive(nextCell))
             return false;
 
-        moveEmptyStomach(nextCell);
-
-
-//        Cell tail = this.SNAKE.getLast();
-//
-//        int n_x = nextCell.row;
-//        int n_y = nextCell.col;
-//
-
-//
-//
-//        int head_x = head.row;
-//        int head_y = head.col;
-//
-//        int tail_x = tail.row;
-//        int tail_y = tail.col;
-//
-//        /**
-//         * ToDo: Bug fix: this is handling only head or tail crash, snake body carsh to be handled later
-//         */
-//        if ((n_x == head_x && n_y == head_y) || (n_x == tail_x || n_y == tail_y) )
-//            moveSuccessful = false;
-
-//        //head = nextCell;
-//        SNAKE.addFirst(nextCell);
-//        tail = SNAKE.removeLast();
-//        tail.type = Cell.CELL_TYPE_EMPTY;
-
-
-
-//        /** if the next cell was food, do not remote the tail node such that the snake length grows. */
-//        if (!nextCell.isFood) {
-//            tail = SNAKE.removeLast();
-//            tail.type = Cell.CELL_TYPE_EMPTY;
-//        }
+        moveOnWithFoodChecks(nextCell);
 
         return moveSuccessful;   /** -1 indicating GAME OVER, 0 ALL GOOD */
     }
 
-    private void moveEmptyStomach(Cell nextCell) {
+    /**
+     * move - based on food checks, handle snake body growth as well.
+     * @param nextCell
+     */
+    private void moveOnWithFoodChecks(Cell nextCell) {
         SNAKE.addFirst(nextCell);
-        Cell tail = SNAKE.removeLast();
-        tail.type = Cell.CELL_TYPE_EMPTY;
+
+        /** keep the snake body growing when found food. */
+        if (!nextCell.isFood()) {
+            Cell tail = SNAKE.removeLast();
+            tail.type = Cell.CELL_TYPE_EMPTY;
+        }
     }
 
+
+    /**
+     * Check if the game is still on at every move
+     * @param nextCell
+     * @return
+     */
     public boolean isGameAlive(Cell nextCell) {
         System.out.println("Compare: " + nextCell.toString());
 
@@ -94,6 +67,11 @@ public class Snake {
         return gameIsOn;
     }
 
+
+    /**
+     * print snake for debugging purpose
+     * @return
+     */
     public String toString() {
         StringBuilder snakeBody = new StringBuilder("tail -> ");
         for (int i = this.SNAKE.size()-1; i >=0 ; i--) {

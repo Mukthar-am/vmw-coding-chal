@@ -23,7 +23,12 @@ public class Board {
     public void generateFood() {
         int row = new Random().nextInt(this.ROWS);
         int column = new Random().nextInt(this.COLS);
+        System.out.println("Generating food at (x,y): (" + row + "," + column + ")");
+        this.BOARD[row][column].setFood();
+    }
 
+    public void generateFood(int row, int column) {
+        System.out.println("Generating food at (x,y): (" + row + "," + column + ")");
         this.BOARD[row][column].setFood();
     }
 
