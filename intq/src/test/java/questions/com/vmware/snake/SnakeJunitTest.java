@@ -39,15 +39,21 @@ public class SnakeJunitTest {
     }
 
 
+    /**
+     * Compare board cells, to check the equals() and hashCode() implementation
+     */
     @Test
     public void CellCompareTest() {
         Cell firstCell = new Cell(0,0);
         Cell secondCell = new Cell(0,0);
 
-        Assert.assertEquals(false, firstCell.equals(secondCell));
+        Assert.assertEquals(true, firstCell.equals(secondCell));
     }
 
 
+    /**
+     * Assert based on successful crash of the snake to either of its body parts including head and tail of snake
+     */
     @Test
     public void SnakeCrashTest() {
         boolean gameOver;
@@ -71,32 +77,46 @@ public class SnakeJunitTest {
     }
 
 
+    /**
+     * assert based on the head progressed and added with another node (0,1)
+     */
     @Test
     public void SnakeEatFoodTest() {
+        System.out.println("My snake: " + this.SNAKE.toString() + "\n");
+
+        Cell nextCell = new Cell(0,1);
+        nextCell.setFood();
+        this.BOARD.generateFood(0,1);
+        this.SNAKE.move(nextCell);
+
+        /** asserts based on the head being moved from default/start cell (0,0) to (0,1) */
+        Cell headCell = this.SNAKE.getHead();
+        if (headCell.equals(nextCell))
+            Assert.assertTrue(true);
+        else
+            Assert.assertTrue(false);
+    }
+
+
+    /**
+     * Assertion based on length of the snake body
+     */
+    @Test
+    public void snakeLengthCheck() {
+        int bodyToBeGrownBy = 2;
         System.out.println("My snake: " + this.SNAKE.toString() + "\n");
 
 
         Cell nextCell = new Cell(0,1);
         nextCell.setFood();
         this.BOARD.generateFood(0,1);
-
         this.SNAKE.move(nextCell);
-        System.out.println("My snake: " + this.SNAKE.toString() + "\n");
 
-//        nextCell = new Cell(0,2);
-//        this.SNAKE.move(nextCell);
-//        System.out.println("My snake: " + this.SNAKE.toString() + "\n");
-//
-//        nextCell = new Cell(0,2);
-//        if (!this.SNAKE.move(nextCell))
-//            System.out.println("game is over");
-//
-//        System.out.println("My snake: " + this.SNAKE.toString() + "\n");
+        int snakeCurrentLength = this.SNAKE.getLength();
+        System.out.println("My snake: " + this.SNAKE.toString() + ", Grown by length = " + snakeCurrentLength + "\n");
+
+        Assert.assertEquals(bodyToBeGrownBy, snakeCurrentLength);
     }
-
-
-
-
 
 
 //    @Test

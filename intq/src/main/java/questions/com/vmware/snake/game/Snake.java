@@ -16,6 +16,33 @@ public class Snake {
 
 
     /**
+     * Enabling unit tests: To check if the snake has grown in length or not
+     * @return
+     */
+    public int getLength() {
+        return this.SNAKE.size();
+    }
+
+
+    /**
+     * getter - for further operations on the snake move and enabling unit test: Tail of the snake
+     * @return
+     */
+    public Cell getTail() {
+        return this.SNAKE.getLast();
+    }
+
+
+    /**
+     * getter - for further operations on the snake move and enabling unit test: Head of the snake
+     * @return
+     */
+    public Cell getHead() {
+        return this.SNAKE.getFirst();
+    }
+
+
+    /**
      * snake traversing by moving occupied and empty cells - display of the cell shows the snake movement
      *
      * @param nextCell Handling snake eating food and growing in its length
@@ -51,9 +78,7 @@ public class Snake {
      * @param nextCell
      * @return
      */
-    public boolean isGameAlive(Cell nextCell) {
-        System.out.println("Compare: " + nextCell.toString());
-
+    private boolean isGameAlive(Cell nextCell) {
         boolean gameIsOn = true;
         for (int i = 0; i < this.SNAKE.size(); i++) {
             Cell currentCell = this.SNAKE.get(i);

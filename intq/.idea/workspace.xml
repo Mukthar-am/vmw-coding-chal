@@ -12,13 +12,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Snake.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Snake.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/game/Snake.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="34" column="69" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
+            <state relative-caret-position="311">
+              <caret line="36" column="85" selection-start-line="36" selection-start-column="85" selection-end-line="36" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#755#756#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SnakeJunitTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SnakeJunitTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/questions/com/vmware/snake/SnakeJunitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+            <state relative-caret-position="255">
+              <caret line="42" column="79" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,8 +145,8 @@
         <option value="$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/game/Manager.java" />
         <option value="$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/businessobjects/Cell.java" />
         <option value="$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/businessobjects/Board.java" />
-        <option value="$PROJECT_DIR$/src/test/java/questions/com/vmware/snake/SnakeJunitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/game/Snake.java" />
+        <option value="$PROJECT_DIR$/src/test/java/questions/com/vmware/snake/SnakeJunitTest.java" />
       </list>
     </option>
   </component>
@@ -310,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SnakeJunitTest.SnakeEatFoodTest">
+  <component name="RunManager" selected="TestNG.SnakeJunitTest">
     <configuration name="Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.com.vmware.snake.proper.game.Manager" />
       <module name="intq" />
@@ -340,6 +346,35 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="SnakeJunitTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="intq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.com.vmware.snake.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="questions.com.vmware.snake" />
+      <option name="MAIN_CLASS_NAME" value="questions.com.vmware.snake.SnakeJunitTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
     <configuration name="SnakeJunitTest.CellCompareTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="intq" />
@@ -428,29 +463,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="/Users/mukthara/Downloads/vmware-coding/vmw-coding-chal/intq/src/test/resources/testing.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="intq" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testing.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -474,19 +486,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG./Users/mukthara/Downloads/vmware-coding/vmw-coding-chal/intq/src/test/resources/testing.xml" />
       <item itemvalue="Application.Manager" />
       <item itemvalue="TestNG.SnakeJunitTest.SnakeCrashTest" />
       <item itemvalue="TestNG.SnakeJunitTest.CellCompareTest" />
       <item itemvalue="TestNG.SnakeJunitTest.SnakeEatFoodTest" />
+      <item itemvalue="TestNG.SnakeJunitTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SnakeJunitTest" />
         <item itemvalue="TestNG.SnakeJunitTest.SnakeEatFoodTest" />
         <item itemvalue="TestNG.SnakeJunitTest.SnakeCrashTest" />
         <item itemvalue="TestNG.SnakeJunitTest.CellCompareTest" />
         <item itemvalue="Application.Manager" />
-        <item itemvalue="TestNG./Users/mukthara/Downloads/vmware-coding/vmw-coding-chal/intq/src/test/resources/testing.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -504,27 +516,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SnakeJunitTest_SnakeCrashTest - 2018.04.27 at 12h 44m 25s.xml">
-      <configuration name="SnakeJunitTest.SnakeCrashTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SnakeJunitTest_SnakeEatFoodTest - 2018.04.27 at 14h 19m 17s.xml">
-      <configuration name="SnakeJunitTest.SnakeEatFoodTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SnakeJunitTest_SnakeCrashTest - 2018.04.27 at 14h 21m 56s.xml">
-      <configuration name="SnakeJunitTest.SnakeCrashTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SnakeJunitTest_SnakeCrashTest - 2018.04.27 at 14h 22m 09s.xml">
-      <configuration name="SnakeJunitTest.SnakeCrashTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SnakeJunitTest_SnakeCrashTest - 2018.04.27 at 14h 23m 13s.xml">
-      <configuration name="SnakeJunitTest.SnakeCrashTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SnakeJunitTest_SnakeEatFoodTest - 2018.04.27 at 14h 23m 16s.xml">
-      <configuration name="SnakeJunitTest.SnakeEatFoodTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SnakeJunitTest_SnakeEatFoodTest - 2018.04.27 at 14h 24m 19s.xml">
-      <configuration name="SnakeJunitTest.SnakeEatFoodTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SnakeJunitTest_SnakeEatFoodTest - 2018.04.27 at 14h 25m 09s.xml">
       <configuration name="SnakeJunitTest.SnakeEatFoodTest" configurationId="TestNG" />
     </history-entry>
@@ -533,6 +524,27 @@
     </history-entry>
     <history-entry file="SnakeJunitTest_SnakeEatFoodTest - 2018.04.27 at 14h 26m 04s.xml">
       <configuration name="SnakeJunitTest.SnakeEatFoodTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SnakeJunitTest_SnakeEatFoodTest - 2018.04.27 at 14h 32m 59s.xml">
+      <configuration name="SnakeJunitTest.SnakeEatFoodTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SnakeJunitTest_SnakeEatFoodTest - 2018.04.27 at 14h 33m 47s.xml">
+      <configuration name="SnakeJunitTest.SnakeEatFoodTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SnakeJunitTest_SnakeEatFoodTest - 2018.04.27 at 14h 34m 16s.xml">
+      <configuration name="SnakeJunitTest.SnakeEatFoodTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SnakeJunitTest_SnakeEatFoodTest - 2018.04.27 at 14h 34m 33s.xml">
+      <configuration name="SnakeJunitTest.SnakeEatFoodTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SnakeJunitTest - 2018.04.27 at 14h 34m 36s.xml">
+      <configuration name="SnakeJunitTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SnakeJunitTest - 2018.04.27 at 14h 34m 50s.xml">
+      <configuration name="SnakeJunitTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SnakeJunitTest - 2018.04.27 at 14h 37m 56s.xml">
+      <configuration name="SnakeJunitTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -548,7 +560,7 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.17986426" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.20248869" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="IvyIDEA" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
@@ -833,16 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/questions/com/vmware/snake/SnakeJunitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/businessobjects/Cell.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-498">
@@ -865,8 +867,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/game/Snake.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="34" column="69" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
+        <state relative-caret-position="311">
+          <caret line="36" column="85" selection-start-line="36" selection-start-column="85" selection-end-line="36" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/questions/com/vmware/snake/SnakeJunitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="42" column="79" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
