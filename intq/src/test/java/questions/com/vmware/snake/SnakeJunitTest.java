@@ -2,7 +2,11 @@ package questions.com.vmware.snake;
 
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import questions.com.vmware.snake.businessobjects.Board;
+import questions.com.vmware.snake.businessobjects.Cell;
+import questions.com.vmware.snake.game.Snake;
 
 /**
  *  Solve the well known snake game.
@@ -17,11 +21,77 @@ import org.testng.annotations.Test;
  *   Food is indicated by F
  */
 public class SnakeJunitTest {
+    private Snake SNAKE;
+    private Board BOARD;
+    private int SNAKE_START_POS = 0;
+    private int SNAKE_END_POS = 0;
+
+    private int BOARD_X = 20;
+    private int BOARD_Y = 20;
+
+    @BeforeTest
+    public void preTest() {
+        /** snake start position */
+        Cell snakeStartPos = new Cell(this.SNAKE_START_POS, this.SNAKE_END_POS);
+
+        this.SNAKE = new Snake(snakeStartPos);      /** init snake */
+        this.BOARD = new Board().init(this.BOARD_X, this.BOARD_Y);  /** init board */
+    }
+
+
+    @Test
+    public void CellCompareTest() {
+        Cell firstCell = new Cell(0,0);
+        Cell secondCell = new Cell(0,0);
+        
+        Assert.assertEquals(false, firstCell.equals(secondCell));
+    }
+
+
+    @Test
+    public void SnakeCrashTest() {
+        System.out.println("My snake: " + this.SNAKE.toString() + "\n");
+
+        Cell nextCell = new Cell(0,1);
+        this.SNAKE.move(nextCell);
+        System.out.println("My snake: " + this.SNAKE.toString() + "\n");
+
+        nextCell = new Cell(0,2);
+        this.SNAKE.move(nextCell);
+        System.out.println("My snake: " + this.SNAKE.toString() + "\n");
+
+        nextCell = new Cell(0,2);
+        if (!this.SNAKE.move(nextCell))
+            System.out.println("game is over");
+
+        Assert.assertEquals(false, this.SNAKE.move(nextCell));
+    }
+
+
+    @Test
+    public void SnakeEatFoodTest() {
+        System.out.println("My snake: " + this.SNAKE.toString() + "\n");
+
+        Cell nextCell = new Cell(0,1);
+        this.SNAKE.move(nextCell);
+        System.out.println("My snake: " + this.SNAKE.toString() + "\n");
+
+        nextCell = new Cell(0,2);
+        this.SNAKE.move(nextCell);
+        System.out.println("My snake: " + this.SNAKE.toString() + "\n");
+
+        nextCell = new Cell(0,2);
+        if (!this.SNAKE.move(nextCell))
+            System.out.println("game is over");
+
+        System.out.println("My snake: " + this.SNAKE.toString() + "\n");
+    }
+
 
 
     @Test
     public void test1_startGame() {
-        //Start a 5 X 5 Snake game. Snake will be at the center
+
         /**
          *       _ _ _ _ _
          *      |_|_|_|_|_|
@@ -107,5 +177,7 @@ public class SnakeJunitTest {
          */
         Assert.fail();
     }
+
+
 
 }

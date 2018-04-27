@@ -46,7 +46,7 @@ public class Manager {
             System.out.println("Moving - " + move);
 
             /** Calling setDirection() and obtaining the next cell */
-            if (this.SNAKE.move(setDirection(move)) == -1) {
+            if (!this.SNAKE.move(setDirection(move))) {
                 System.out.printf("GAME OVER as you have hit obstacle (Head or tail for now)");
                 System.exit(0);
             }
