@@ -35,9 +35,9 @@ public class Snake {
 
         moveEmptyStomach(nextCell);
 
-//        head = this.SNAKE.getFirst();
-        Cell tail = this.SNAKE.getLast();
 
+//        Cell tail = this.SNAKE.getLast();
+//
 //        int n_x = nextCell.row;
 //        int n_y = nextCell.col;
 //

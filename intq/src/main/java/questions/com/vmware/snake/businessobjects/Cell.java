@@ -10,24 +10,42 @@ public class Cell implements Comparator<Cell> {
 
     public final int row, col;      /** cell co-ordinates in terms of (x, y) */
     public int type;
-    public boolean isFood = false;
+    private boolean isFood = false;
 
     public Cell(int row, int col) {
         this.row = row;
         this.col = col;
     }
 
-    public String toString() {
-        return "(" + this.row + "," + this.col + ")";
+
+    /**
+     * Set if its good or not
+     */
+    public void setFood() {
+        this.isFood = true;
     }
 
+    public boolean isFood() {
+        return this.isFood;
+    }
+
+    /**
+     * Will have to implement this if we use LinkedList.contains() method. For now, equals() and hashCode() does all the checks.
+     * @param o1
+     * @param o2
+     * @return
+     */
     @Override
     public int compare(Cell o1, Cell o2) {
-
         return 0;
     }
 
 
+    /**
+     * equals method comparing internal properties of the object
+     * @param o
+     * @return
+     */
     @Override
     public boolean equals(Object o) {
         if (o == this) return true;
@@ -45,4 +63,9 @@ public class Cell implements Comparator<Cell> {
     public int hashCode() {
         return Objects.hash(this.row, this.col);
     }
+
+    public String toString() {
+        return "(" + this.row + "," + this.col + ")";
+    }
+
 }

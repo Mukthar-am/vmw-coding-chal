@@ -43,7 +43,7 @@ public class SnakeJunitTest {
     public void CellCompareTest() {
         Cell firstCell = new Cell(0,0);
         Cell secondCell = new Cell(0,0);
-        
+
         Assert.assertEquals(false, firstCell.equals(secondCell));
     }
 

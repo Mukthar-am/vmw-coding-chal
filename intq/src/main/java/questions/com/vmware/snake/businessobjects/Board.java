@@ -24,7 +24,7 @@ public class Board {
         int row = new Random().nextInt(this.ROWS);
         int column = new Random().nextInt(this.COLS);
 
-        this.BOARD[row][column].isFood = true;
+        this.BOARD[row][column].setFood();
     }
 
     public Cell[][] getBoard() {
