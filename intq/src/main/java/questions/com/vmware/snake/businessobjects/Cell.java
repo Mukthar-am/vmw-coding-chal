@@ -8,16 +8,48 @@ public class Cell implements Comparator<Cell> {
     public final static int CELL_TYPE_FOOD = 10;
     public final static int CELL_TYPE_SNAKE_NODE = 20;
 
-    public final int row, col;      /** cell co-ordinates in terms of (x, y) */
+    public final int row, col;
+    /**
+     * cell co-ordinates in terms of (x, y)
+     */
     public int type;
     private boolean isFood = false;
+
+    private boolean isSnakeBody = false;
 
     public Cell(int row, int col) {
         this.row = row;
         this.col = col;
     }
 
+    public Cell(int row, int col, boolean isPartOfSnakeBody) {
+        this.row = row;
+        this.col = col;
+        this.isSnakeBody = isPartOfSnakeBody;
+    }
 
+    public Cell(int row, int col, boolean isPartOfSnakeBody, boolean isFood) {
+        this.row = row;
+        this.col = col;
+        this.isSnakeBody = isPartOfSnakeBody;
+        this.isFood = isFood;
+    }
+
+    public void partOfSnakeBody() {
+        this.isSnakeBody = true;
+    }
+
+    public int getRow() {
+        return this.row;
+    }
+
+    public int getColumn() {
+        return this.col;
+    }
+
+    public void release() {
+        this.isSnakeBody = false;
+    }
     /**
      * Set if its good or not
      */
@@ -31,6 +63,7 @@ public class Cell implements Comparator<Cell> {
 
     /**
      * Will have to implement this if we use LinkedList.contains() method. For now, equals() and hashCode() does all the checks.
+     *
      * @param o1
      * @param o2
      * @return
@@ -43,6 +76,7 @@ public class Cell implements Comparator<Cell> {
 
     /**
      * equals method comparing internal properties of the object
+     *
      * @param o
      * @return
      */
@@ -65,7 +99,10 @@ public class Cell implements Comparator<Cell> {
     }
 
     public String toString() {
-        return "(" + this.row + "," + this.col + ")";
+        if (isSnakeBody)
+            return "x";
+        else
+            return "0";
     }
 
 }

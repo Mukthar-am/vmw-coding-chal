@@ -32,6 +32,9 @@ public class Snake {
         return this.SNAKE.getLast();
     }
 
+    public Cell get(int i) {
+        return this.SNAKE.get(i);
+    }
 
     /**
      * getter - for further operations on the snake move and enabling unit test: Head of the snake

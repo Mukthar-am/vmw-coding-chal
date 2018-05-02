@@ -11,20 +11,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="Snake.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/game/Snake.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="36" column="85" selection-start-line="36" selection-start-column="85" selection-end-line="36" selection-end-column="85" />
+            <state relative-caret-position="328">
+              <caret line="93" column="52" lean-forward="true" selection-start-line="93" selection-end-line="93" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -33,20 +29,20 @@
       <file leaf-file-name="Cell.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/businessobjects/Cell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-498">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            <state relative-caret-position="309">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#966#967#0" expanded="true" />
+                <element signature="e#1006#1007#0" expanded="true" />
                 <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#783#784#0" expanded="true" />
-                <element signature="e#1279#1280#0" expanded="true" />
-                <element signature="e#1334#1335#0" expanded="true" />
-                <element signature="e#1366#1367#0" expanded="true" />
-                <element signature="e#1426#1427#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,7 +51,7 @@
       <file leaf-file-name="Manager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/game/Manager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
+            <state relative-caret-position="353">
               <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -67,10 +63,26 @@
       <file leaf-file-name="SnakeJunitTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/questions/com/vmware/snake/SnakeJunitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="42" column="79" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
+            <state relative-caret-position="294">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/businessobjects/Board.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#875#876#0" expanded="true" />
+                <element signature="e#2113#2114#0" expanded="true" />
+                <element signature="e#2146#2147#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,9 +155,9 @@
         <option value="$PROJECT_DIR$/src/main/java/questions/com/vmware/rubiks/rework/businessobjects/Cube.java" />
         <option value="$PROJECT_DIR$/src/main/java/questions/com/vmware/rubiks/rework/businessobjects/Face.java" />
         <option value="$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/game/Manager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/game/Snake.java" />
         <option value="$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/businessobjects/Cell.java" />
         <option value="$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/businessobjects/Board.java" />
-        <option value="$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/game/Snake.java" />
         <option value="$PROJECT_DIR$/src/test/java/questions/com/vmware/snake/SnakeJunitTest.java" />
       </list>
     </option>
@@ -158,16 +170,15 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1002" />
+    <option name="y" value="53" />
+    <option name="width" value="1680" />
+    <option name="height" value="972" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,6 +306,7 @@
       </pane>
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -316,18 +328,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SnakeJunitTest">
-    <configuration name="Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.com.vmware.snake.proper.game.Manager" />
-      <module name="intq" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.com.vmware.snake.proper.game.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="TestNG.SnakeJunitTest.SnakeCrashTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -434,7 +435,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="SnakeJunitTest.SnakeEatFoodTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SnakeJunitTest.SnakeLengthTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="intq" />
       <extension name="coverage">
         <pattern>
@@ -447,7 +448,36 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="questions.com.vmware.snake" />
       <option name="MAIN_CLASS_NAME" value="questions.com.vmware.snake.SnakeJunitTest" />
-      <option name="METHOD_NAME" value="SnakeEatFoodTest" />
+      <option name="METHOD_NAME" value="SnakeLengthTest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="SnakeJunitTest.SnakeMoveTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="intq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.com.vmware.snake.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="questions.com.vmware.snake" />
+      <option name="MAIN_CLASS_NAME" value="questions.com.vmware.snake.SnakeJunitTest" />
+      <option name="METHOD_NAME" value="SnakeMoveTest" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -486,19 +516,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Manager" />
-      <item itemvalue="TestNG.SnakeJunitTest.SnakeCrashTest" />
       <item itemvalue="TestNG.SnakeJunitTest.CellCompareTest" />
-      <item itemvalue="TestNG.SnakeJunitTest.SnakeEatFoodTest" />
       <item itemvalue="TestNG.SnakeJunitTest" />
+      <item itemvalue="TestNG.SnakeJunitTest.SnakeLengthTest" />
+      <item itemvalue="TestNG.SnakeJunitTest.SnakeMoveTest" />
+      <item itemvalue="TestNG.SnakeJunitTest.SnakeCrashTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SnakeJunitTest" />
-        <item itemvalue="TestNG.SnakeJunitTest.SnakeEatFoodTest" />
         <item itemvalue="TestNG.SnakeJunitTest.SnakeCrashTest" />
+        <item itemvalue="TestNG.SnakeJunitTest.SnakeMoveTest" />
+        <item itemvalue="TestNG.SnakeJunitTest.SnakeLengthTest" />
         <item itemvalue="TestNG.SnakeJunitTest.CellCompareTest" />
-        <item itemvalue="Application.Manager" />
+        <item itemvalue="TestNG.SnakeJunitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -516,35 +546,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SnakeJunitTest_SnakeEatFoodTest - 2018.04.27 at 14h 25m 09s.xml">
-      <configuration name="SnakeJunitTest.SnakeEatFoodTest" configurationId="TestNG" />
+    <history-entry file="SnakeJunitTest_SnakeMoveTest - 2018.05.02 at 18h 22m 28s.xml">
+      <configuration name="SnakeJunitTest.SnakeMoveTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SnakeJunitTest_SnakeEatFoodTest - 2018.04.27 at 14h 25m 51s.xml">
-      <configuration name="SnakeJunitTest.SnakeEatFoodTest" configurationId="TestNG" />
+    <history-entry file="SnakeJunitTest_SnakeMoveTest - 2018.05.02 at 18h 22m 56s.xml">
+      <configuration name="SnakeJunitTest.SnakeMoveTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SnakeJunitTest_SnakeEatFoodTest - 2018.04.27 at 14h 26m 04s.xml">
-      <configuration name="SnakeJunitTest.SnakeEatFoodTest" configurationId="TestNG" />
+    <history-entry file="SnakeJunitTest_SnakeMoveTest - 2018.05.02 at 18h 23m 06s.xml">
+      <configuration name="SnakeJunitTest.SnakeMoveTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SnakeJunitTest_SnakeEatFoodTest - 2018.04.27 at 14h 32m 59s.xml">
-      <configuration name="SnakeJunitTest.SnakeEatFoodTest" configurationId="TestNG" />
+    <history-entry file="SnakeJunitTest_SnakeMoveTest - 2018.05.02 at 18h 24m 07s.xml">
+      <configuration name="SnakeJunitTest.SnakeMoveTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SnakeJunitTest_SnakeEatFoodTest - 2018.04.27 at 14h 33m 47s.xml">
-      <configuration name="SnakeJunitTest.SnakeEatFoodTest" configurationId="TestNG" />
+    <history-entry file="SnakeJunitTest_SnakeMoveTest - 2018.05.02 at 18h 24m 35s.xml">
+      <configuration name="SnakeJunitTest.SnakeMoveTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SnakeJunitTest_SnakeEatFoodTest - 2018.04.27 at 14h 34m 16s.xml">
-      <configuration name="SnakeJunitTest.SnakeEatFoodTest" configurationId="TestNG" />
+    <history-entry file="SnakeJunitTest_SnakeMoveTest - 2018.05.02 at 18h 25m 40s.xml">
+      <configuration name="SnakeJunitTest.SnakeMoveTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SnakeJunitTest_SnakeEatFoodTest - 2018.04.27 at 14h 34m 33s.xml">
-      <configuration name="SnakeJunitTest.SnakeEatFoodTest" configurationId="TestNG" />
+    <history-entry file="SnakeJunitTest_SnakeCrashTest - 2018.05.02 at 18h 26m 08s.xml">
+      <configuration name="SnakeJunitTest.SnakeCrashTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SnakeJunitTest - 2018.04.27 at 14h 34m 36s.xml">
-      <configuration name="SnakeJunitTest" configurationId="TestNG" />
+    <history-entry file="SnakeJunitTest_SnakeCrashTest - 2018.05.02 at 18h 26m 45s.xml">
+      <configuration name="SnakeJunitTest.SnakeCrashTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SnakeJunitTest - 2018.04.27 at 14h 34m 50s.xml">
-      <configuration name="SnakeJunitTest" configurationId="TestNG" />
+    <history-entry file="SnakeJunitTest_SnakeCrashTest - 2018.05.02 at 18h 26m 57s.xml">
+      <configuration name="SnakeJunitTest.SnakeCrashTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SnakeJunitTest - 2018.04.27 at 14h 37m 56s.xml">
-      <configuration name="SnakeJunitTest" configurationId="TestNG" />
+    <history-entry file="SnakeJunitTest_SnakeCrashTest - 2018.05.02 at 18h 27m 39s.xml">
+      <configuration name="SnakeJunitTest.SnakeCrashTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -554,38 +584,142 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="bottom" id="SBT Console" order="2" />
-      <window_info anchor="bottom" id="Messages" order="6" weight="0.16968326" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.6040724" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.20248869" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.33936653" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="IvyIDEA" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.2585837" />
       <window_info anchor="bottom" id="SonarLint" order="1" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.32918552" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32918552" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/game/Snake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="85" selection-start-line="36" selection-start-column="85" selection-end-line="36" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/businessobjects/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/game/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/questions/com/vmware/snake/SnakeJunitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="42" column="79" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/game/Snake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="85" selection-start-line="36" selection-start-column="85" selection-end-line="36" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/businessobjects/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/game/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/questions/com/vmware/snake/SnakeJunitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="42" column="79" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1005">
@@ -597,9 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="38" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -621,9 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-50">
           <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -631,122 +759,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/rubiks/application/GameManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/rubiks/businessobjects/Grid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="82" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/rubiks/businessobjects/Cube.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/businessobjects/FoodGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/manager/GameManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/businessobjects/FoodNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-          <folding>
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/businessobjects/GridNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/businessobjects/Snake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/proper/game/Router.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="54" column="51" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/rubiks/rework/application/RubiksCube.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/rubiks/application/GameManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/rubiks/businessobjects/Grid.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/rubiks/businessobjects/Cube.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/businessobjects/FoodGrid.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/manager/GameManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/businessobjects/FoodNode.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/businessobjects/GridNode.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/businessobjects/Snake.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/proper/game/Router.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/rubiks/rework/application/RubiksCube.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/rubiks/rework/application/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,10 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-100">
           <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-          <folding>
-            <element signature="e#1761#1762#0" expanded="true" />
-            <element signature="e#1788#1789#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,34 +811,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/rubiks/utils/GameUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/rubiks/utils/GameUtils.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/AbstractCollection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="452" column="18" selection-start-line="452" selection-start-column="18" selection-end-line="452" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/game/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -831,13 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/businessobjects/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/questions/com/vmware/snake/SnakeCucumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -847,44 +845,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/businessobjects/Cell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-498">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="309">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
             <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#1279#1280#0" expanded="true" />
-            <element signature="e#1334#1335#0" expanded="true" />
-            <element signature="e#1366#1367#0" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/game/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/game/Snake.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="36" column="85" selection-start-line="36" selection-start-column="85" selection-end-line="36" selection-end-column="85" />
+        <state relative-caret-position="328">
+          <caret line="93" column="52" lean-forward="true" selection-start-line="93" selection-end-line="93" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/com/vmware/snake/businessobjects/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#2113#2114#0" expanded="true" />
+            <element signature="e#2146#2147#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/questions/com/vmware/snake/SnakeJunitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="42" column="79" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
+        <state relative-caret-position="294">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
